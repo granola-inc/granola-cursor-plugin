@@ -1,0 +1,12 @@
+{
+  "name": "granola",
+  "version": "1.0.0",
+  "description": "Your meetings in your workflow. Granola gives Cursor access to what your team discussed, decided, and committed to.",
+  "author": {
+    "name": "Granola",
+    "email": "hello@granola.ai"
+  },
+  "homepage": "https://granola.ai",
+  "keywords": ["meetings", "notes", "decisions", "context", "granola"],
+  "logo": "assets/logo.svg"
+}

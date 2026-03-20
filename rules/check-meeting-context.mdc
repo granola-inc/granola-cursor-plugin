@@ -1,0 +1,10 @@
+---
+description: Check Granola for relevant meeting context when working on features or making decisions
+alwaysApply: true
+---
+
+When you're implementing a feature, fixing a bug, writing a spec, or making a design choice, consider whether there might be relevant meeting discussions about this work. If the user mentions a meeting, a decision, "what we discussed," or a person's name in the context of a past conversation, use Granola's MCP tools to find the actual context rather than asking the user to recall it from memory.
+
+When generating PR descriptions, commit messages, or documentation for work that was discussed in meetings, offer to include a brief note about which meetings informed the work and what was decided.
+
+Use your judgement about when to check. Not every task has meeting context behind it, and you shouldn't query Granola for routine edits or small fixes. But when someone is building something that sounds like it came from a planning discussion, a product review, or a customer call, it's worth a quick look.
