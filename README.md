@@ -12,17 +12,17 @@ Install the plugin from the Cursor Marketplace. The first time you use a Granola
 
 ### Skills
 
-Skills are things you reach for regularly, mid-workflow.
+Skills are loaded autonomously — the agent decides when to use them based on what you're doing. You don't need to invoke them.
 
-**`/granola-context`** — Look up what was discussed or decided. Ask a question about a past meeting and get a concise answer with citations.
+**granola-context** — Look up what was discussed or decided. The agent pulls this in when you're mid-work and a question touches on something from a meeting.
 
-**`/granola-review`** — Check your work against meeting decisions before submitting. See what's aligned, what's missing, and what you've added that wasn't discussed.
+**granola-review** — Check your work against meeting decisions before submitting. The agent uses this to flag what's aligned, what's missing, and what you've added that wasn't discussed.
 
-**`/granola-prep`** — Prepare for an upcoming meeting. Get a brief on what was discussed last time, what's still open, and what's changed since.
+**granola-prep** — Prepare for an upcoming meeting. The agent pulls context from previous meetings with the same people or on the same topic.
 
 ### Commands
 
-Commands produce a document you keep — a spec, a plan, a report.
+Commands are invoked manually with `/` and produce a document you keep — a spec, a plan, a report.
 
 **`/granola-plan`** — Generate a prioritized build plan from recent meeting decisions and action items. Good for starting a work session.
 
@@ -31,6 +31,10 @@ Commands produce a document you keep — a spec, a plan, a report.
 **`/granola-brief`** — Get a briefing on any topic by synthesizing everything discussed across your meetings. Useful for onboarding, getting oriented, or preparing for a conversation.
 
 **`/granola-bug-report`** — Turn a bug walkthrough call into a structured bug report, ready to drop into Linear or GitHub Issues.
+
+**`/granola-pr`** — Write a PR description grounded in meeting decisions. Links your changes back to the discussions where the work was agreed on, and flags anything you've built that wasn't explicitly discussed.
+
+**`/granola-gaps`** — Find what was discussed in meetings but hasn't shown up in code yet. Cross-references meeting decisions and action items against your git history to surface what's been done, what hasn't started, and what's only partially covered.
 
 ### Agent
 
@@ -45,8 +49,9 @@ The plugin includes an always-on rule that nudges the agent to check Granola for
 The plugin connects to Granola's MCP server. These are the tools available to the agent:
 
 - `query_granola_meetings` — semantic search across your meetings
-- `list_meetings` — browse meetings by date range
-- `get_meetings` — search meeting content
+- `list_meetings` — browse meetings by date range or folder
+- `list_meeting_folders` — discover folder IDs, titles, descriptions, and note counts
+- `get_meetings` — retrieve detailed meeting info by ID (notes, summaries, attendees, metadata)
 - `get_meeting_transcript` — full transcript with speakers and timestamps
 
 ## Feedback

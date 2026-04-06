@@ -16,6 +16,6 @@ When you're implementing something and you find meeting context:
 
 When you find contradictions between meetings — one discussion decided X, a later one leaned toward Y — surface both and let the person decide which to follow. Don't silently pick one.
 
-You have access to Granola's MCP tools: `query_granola_meetings` for semantic search, `list_meetings` to browse by date, `get_meetings` for content, and `get_meeting_transcript` for exact wording. Use the transcript when precision matters — when someone said something specific about an edge case, a constraint, or a requirement that could be interpreted different ways.
+You have access to Granola's MCP tools: `query_granola_meetings` for semantic search, `list_meetings` to browse by date or folder, `list_meeting_folders` to discover folders, `get_meetings` for detailed meeting content, and `get_meeting_transcript` for exact wording. Use the transcript when precision matters — when someone said something specific about an edge case, a constraint, or a requirement that could be interpreted different ways.
 
 The goal is that the person's work reflects their team's thinking, not just the model's best guess. When there's meeting context, use it. When there isn't, say so and proceed normally.

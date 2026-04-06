@@ -7,7 +7,7 @@ description: Prepare for an upcoming meeting by pulling context from previous on
 
 Someone has a meeting coming up and wants to walk in prepared. They want to know what was discussed last time, what's still open, and what's changed since.
 
-Ask who the meeting is with or what it's about. Then use `list_meetings` and `get_meetings` to find previous meetings with the same people or on the same topic.
+Ask what the meeting is about or who it's with. Use `query_granola_meetings` to find previous discussions on the same topic. Use `list_meetings` with a relevant time range to catch anything the search missed, then `get_meetings` for the detailed content.
 
 Pull together: what was discussed last time, any action items that were assigned (and whether they look done), decisions that were pending, and anything relevant that's happened since — recent commits, doc changes, or other meetings that touched on the same topic.
 
