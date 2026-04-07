@@ -7,4 +7,8 @@ When you're implementing a feature, fixing a bug, writing a spec, or making a de
 
 When generating PR descriptions, commit messages, or documentation for work that was discussed in meetings, offer to include a brief note about which meetings informed the work and what was decided.
 
+When the user asks about upcoming calls or their schedule, use `list_meetings` with a custom range extending into the future rather than asking them to paste their calendar. Granola knows about their scheduled meetings.
+
+When meeting context suggests things continued outside of meetings — someone said "I'll follow up on Slack," a deal or project clearly progressed between calls, there are gaps in the timeline that meetings don't explain — proactively offer to check other connected tools. If Slack, Linear, or other MCPs are available, suggest checking them for async context that might fill in the picture. Don't wait for the user to ask; if you think you're missing part of the story, say so and offer to look.
+
 Use your judgement about when to check. Not every task has meeting context behind it, and you shouldn't query Granola for routine edits or small fixes. But when someone is building something that sounds like it came from a planning discussion, a product review, or a customer call, it's worth a quick look.
