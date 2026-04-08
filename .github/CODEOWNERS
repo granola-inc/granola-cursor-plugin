@@ -1,8 +1,1 @@
-# Default owners for everything in the repo
-* @granola-inc/dev
-
-# High-sensitivity files: MCP configuration and always-on agent rules
-.mcp.json @granola-inc/dev
-rules/ @granola-inc/dev
-agents/ @granola-inc/dev
-.cursor-plugin/ @granola-inc/dev
+* @granola-inc/cursor-plugin-maintainers
