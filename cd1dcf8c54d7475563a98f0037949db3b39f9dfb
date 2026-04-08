@@ -1,0 +1,25 @@
+SECURITY.md
+  f451be09e50ffa67 1-27
+.github/CODEOWNERS
+  f451be09e50ffa67 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.5",
+  "base_commit_sha": "cd1dcf8c54d7475563a98f0037949db3b39f9dfb",
+  "prompts": {
+    "f451be09e50ffa67": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "d1e69325-d328-4a68-a739-9759d06bab75",
+        "model": "claude-4.6-opus-high-thinking"
+      },
+      "human_author": "Damian",
+      "messages": [],
+      "total_additions": 35,
+      "total_deletions": 0,
+      "accepted_lines": 35,
+      "overriden_lines": 0
+    }
+  }
+}
