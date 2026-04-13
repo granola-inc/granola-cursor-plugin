@@ -23,7 +23,9 @@ concurrency:
 
 jobs:
   analyze:
-    name: Analyze (javascript-typescript)
+    # This repo is Markdown/skills/config + GitHub Actions workflows only (no JS/TS sources).
+    # Use the CodeQL "actions" language per https://docs.github.com/en/code-security/code-scanning/creating-an-advanced-setup-for-code-scanning/customizing-your-advanced-setup-for-code-scanning
+    name: Analyze (actions)
     runs-on: blacksmith-4vcpu-ubuntu-2404
     timeout-minutes: 360
 
@@ -39,10 +41,9 @@ jobs:
       - name: Initialize CodeQL
         uses: github/codeql-action/init@v4
         with:
-          languages: javascript-typescript
-          build-mode: none
+          languages: actions
 
       - name: Perform CodeQL analysis
         uses: github/codeql-action/analyze@v4
         with:
-          category: "/language:javascript-typescript"
+          category: "/language:actions"
