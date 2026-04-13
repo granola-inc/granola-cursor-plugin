@@ -1,0 +1,23 @@
+.github/workflows/codeql.yml
+  738a344391e0e531 26-28,44,49
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.2.8",
+  "base_commit_sha": "4b6a7d9b5f828e1249c127e5f4d3ed630abc34d7",
+  "prompts": {
+    "738a344391e0e531": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "b533ee88-d03d-4389-a862-794f2f7374b3",
+        "model": "default"
+      },
+      "human_author": "Damian",
+      "messages": [],
+      "total_additions": 5,
+      "total_deletions": 4,
+      "accepted_lines": 5,
+      "overriden_lines": 0
+    }
+  }
+}
