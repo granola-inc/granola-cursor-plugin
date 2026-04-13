@@ -1,0 +1,24 @@
+# yaml-language-server: $schema=https://cubic.dev/schema/cubic-repository-config.schema.json
+
+# cubic.yaml
+# AI review settings for this repository. UI settings are overridden by this file when present.
+# See https://docs.cubic.dev/configure/cubic-yaml
+
+version: 1
+reviews:
+  enabled: true
+  sensitivity: medium
+  incremental_commits: true
+  check_drafts: false
+  architecture_diagrams: false
+  show_ai_feedback_buttons: false
+  resolve_threads_when_addressed: true
+  ignore:
+    files:
+      - .github/workflows/*.lock.yml
+pr_descriptions:
+  generate: false
+  cubic_review_link: false
+issues:
+  fix_with_cubic_buttons: true
+  fix_commits_to_pr: false
