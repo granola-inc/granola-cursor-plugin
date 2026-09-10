@@ -12,9 +12,9 @@ Install the plugin from the Cursor Marketplace. The first time you use a Granola
 
 ### Skills
 
-Skills are loaded autonomously — the agent decides when to use them based on what you're doing. You don't need to invoke them.
+Skills are loaded when relevant to your request. The agent can select them automatically; you don't need to invoke them. The plugin has no always-on rules.
 
-**granola-context** — Look up what was discussed or decided. The agent pulls this in when you're mid-work and a question touches on something from a meeting.
+**granola-context** — Look up meeting discussions, decisions, or scheduled meetings when you ask about a meeting or explicitly connect your task to one. Routine coding tasks don't trigger a meeting lookup.
 
 **granola-review** — Check your work against meeting decisions before submitting. The agent uses this to flag what's aligned, what's missing, and what you've added that wasn't discussed.
 
@@ -39,10 +39,6 @@ Commands are invoked manually with `/` and produce a document you keep — a spe
 ### Agent
 
 **`/granola-engineer`** — A decisions-aware assistant that anchors implementation choices to meeting context. It cites meetings when justifying decisions, flags when you're building something that wasn't discussed, and surfaces contradictions between meetings.
-
-### Rule
-
-The plugin includes an always-on rule that nudges the agent to check Granola for meeting context when you're implementing features or making decisions — without you having to ask.
 
 ## Granola MCP tools
 
