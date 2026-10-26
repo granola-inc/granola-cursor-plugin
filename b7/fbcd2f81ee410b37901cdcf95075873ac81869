@@ -1,0 +1,19 @@
+.github/workflows/validate.yml
+  s_c6031a46dc8bd9::t_68acf03d7f0945 20-29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b7fbcd2f81ee410b37901cdcf95075873ac81869",
+  "prompts": {},
+  "sessions": {
+    "s_c6031a46dc8bd9": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a17915-c22d-7ed2-a423-24cbb2679668",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Damian <damian@granola.so>"
+    }
+  }
+}
