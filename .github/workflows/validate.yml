@@ -17,5 +17,13 @@ jobs:
 
       - name: Validate JSON
         run: |
-          python3 -I -m json.tool .cursor-plugin/plugin.json > /dev/null
-          python3 -I -m json.tool .mcp.json > /dev/null
+          python3 -I - <<'PY'
+          import json
+
+          def reject_constant(value):
+              raise ValueError(f"Invalid JSON constant: {value}")
+
+          for path in (".cursor-plugin/plugin.json", ".mcp.json"):
+              with open(path, encoding="utf-8") as file:
+                  json.load(file, parse_constant=reject_constant)
+          PY
