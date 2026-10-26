@@ -1,0 +1,21 @@
+name: Validate configuration
+
+on:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+
+      - name: Validate JSON
+        run: |
+          python3 -I -m json.tool .cursor-plugin/plugin.json > /dev/null
+          python3 -I -m json.tool .mcp.json > /dev/null
