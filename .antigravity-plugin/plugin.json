@@ -1,0 +1,21 @@
+{
+  "name": "granola",
+  "displayName": "Granola",
+  "version": "1.0.1",
+  "description": "Your meetings in your workflow. Granola gives your agent what your team discussed, decided, and committed to in meetings.",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "Prep me for my next meeting",
+    "What did we decide about this project in recent meetings?",
+    "Check my changes against what we agreed in meetings"
+  ],
+  "category": "Productivity",
+  "keywords": ["meetings", "notes", "decisions", "context", "granola"],
+  "author": {
+    "name": "Granola",
+    "email": "hello@granola.ai",
+    "url": "https://granola.ai"
+  },
+  "homepage": "https://granola.ai",
+  "repository": "https://github.com/granola-inc/granola-cursor-plugin"
+}

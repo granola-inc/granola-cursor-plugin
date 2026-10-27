@@ -2,11 +2,11 @@
 
 Your meetings in your workflow.
 
-Granola gives Cursor's agent access to what your team discussed, decided, and committed to in meetings. Instead of context-switching to check your notes or asking teammates to repeat themselves, you get answers where you're already working.
+Granola gives your agent in Cursor or Google Antigravity access to what your team discussed, decided, and committed to in meetings. Instead of context-switching to check your notes or asking teammates to repeat themselves, you get answers where you're already working.
 
 ## Setup
 
-Install the plugin from the Cursor Marketplace. The first time you use a Granola tool, you'll be prompted to sign in via your browser. You need a [Granola](https://granola.ai) account with meeting data.
+Install the plugin from the Cursor Marketplace or the Google Antigravity plugin Marketplace (**Customizations → Plugins**). The first time you use a Granola tool, you'll be prompted to sign in via your browser. You need a [Granola](https://granola.ai) account with meeting data.
 
 ## What's included
 
@@ -22,7 +22,7 @@ Skills are loaded when relevant to your request. The agent can select them autom
 
 ### Commands
 
-Commands are invoked manually with `/` and produce a document you keep — a spec, a plan, a report.
+Commands are available in Cursor only. They are invoked manually with `/` and produce a document you keep — a spec, a plan, a report.
 
 **`/granola-plan`** — Generate a prioritized build plan from recent meeting decisions and action items. Good for starting a work session.
 

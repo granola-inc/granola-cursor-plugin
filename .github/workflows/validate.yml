@@ -23,7 +23,12 @@ jobs:
           def reject_constant(value):
               raise ValueError(f"Invalid JSON constant: {value}")
 
-          for path in (".cursor-plugin/plugin.json", ".mcp.json"):
+          for path in (
+              ".cursor-plugin/plugin.json",
+              ".mcp.json",
+              ".antigravity-plugin/plugin.json",
+              "mcp_config.json",
+          ):
               with open(path, encoding="utf-8") as file:
                   json.load(file, parse_constant=reject_constant)
           PY

@@ -1,6 +1,7 @@
 ---
 name: granola-engineer
 description: A decisions-aware assistant that anchors work to meeting context. Use proactively when implementing features that were discussed in meetings, or when the user needs their work grounded in team decisions.
+enable_mcp_tools: true
 ---
 
 # granola-engineer
