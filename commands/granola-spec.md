@@ -7,7 +7,7 @@ description: Build a structured spec from meeting discussions about a feature or
 
 Someone needs to turn meeting conversations into a spec they can build from. They've discussed a feature or project across one or more meetings, and now they need it written down properly — requirements, constraints, decisions, and open questions, all traced back to where they came from.
 
-Ask what feature or topic to spec, or infer it from the current project context. Start with `query_granola_meetings` to semantically find all discussions about the topic. Then use `list_meetings` (with `last_30_days` or a custom range if work spans further back) and `get_meetings` to fill in anything the search missed and to build a chronological picture. For ambiguous points or where exact wording matters, use `get_meeting_transcript` to pull verbatim quotes.
+Ask what feature or topic to spec, or infer it from the current project context. Use Granola's tools to find every discussion about the topic, going further back than the last month if the work spans longer, and build a chronological picture. For ambiguous points or where exact wording matters, read the transcript for verbatim quotes.
 
 From the meetings, extract:
 - Requirements that were stated or agreed on

@@ -32,3 +32,11 @@ jobs:
               with open(path, encoding="utf-8") as file:
                   json.load(file, parse_constant=reject_constant)
           PY
+
+      - name: Reject hardcoded MCP tool names
+        run: |
+          # Granola's MCP server routes agents to the right tool; naming tools here goes stale when the server changes.
+          if grep -rnE '`[a-z]+(_[a-z]+)+`' skills agents commands; then
+            echo "Describe what to do and let the Granola server pick the tool, instead of naming MCP tools."
+            exit 1
+          fi

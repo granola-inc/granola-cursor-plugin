@@ -7,7 +7,7 @@ description: Turn a bug walkthrough call into a structured bug report.
 
 Someone just got off a call where a user or teammate walked them through a bug. The conversation is in Granola — now they need a structured write-up they can hand to the engineering team or drop into a ticket.
 
-Ask which meeting, or use `query_granola_meetings` to find the most recent one that sounds like a bug walkthrough. Use `list_meetings` to scan recent meetings if the search needs narrowing. Once you have the meeting ID, use `get_meetings` for the summary and `get_meeting_transcript` for exact quotes.
+Ask which meeting, or use Granola's tools to find the most recent one that sounds like a bug walkthrough. Read its notes for the summary and its transcript for exact quotes.
 
 From the conversation, extract:
 - What the person reported happening, in their own words

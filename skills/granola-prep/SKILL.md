@@ -7,9 +7,9 @@ description: Prepare for an upcoming meeting by pulling context from previous on
 
 Someone has a meeting coming up and wants to walk in prepared. They want to know what was discussed last time, what's still open, and what's changed since.
 
-Ask what the meeting is about or who it's with. If they're not sure what's coming up, check for them — use `list_meetings` with a custom range from today through the next week or two to find upcoming meetings. Don't ask the user to paste their calendar; Granola already knows about their scheduled calls.
+Ask what the meeting is about or who it's with. If they're not sure what's coming up, check their upcoming meetings for the next week or two. Don't ask the user to paste their calendar; Granola already knows about their scheduled calls.
 
-Use `query_granola_meetings` to find previous discussions on the same topic or with the same people. Use `list_meetings` with a past time range to catch anything the search missed, then `get_meetings` for the detailed content.
+Use Granola's tools to prepare, following the Granola server's guidance on meeting prep: it may offer a ready-made brief for an upcoming meeting. Fill any gaps by finding previous discussions on the same topic or with the same people and reading their notes.
 
 Pull together: what was discussed last time, any action items that were assigned (and whether they look done), decisions that were pending, and anything relevant that's happened since — recent commits, doc changes, or other meetings that touched on the same topic.
 

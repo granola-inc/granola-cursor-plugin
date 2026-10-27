@@ -40,15 +40,9 @@ Commands are available in Cursor only. They are invoked manually with `/` and pr
 
 **`/granola-engineer`** — A decisions-aware assistant that anchors implementation choices to meeting context. It cites meetings when justifying decisions, flags when you're building something that wasn't discussed, and surfaces contradictions between meetings.
 
-## Granola MCP tools
+## Granola MCP
 
-The plugin connects to Granola's MCP server. These are the tools available to the agent:
-
-- `query_granola_meetings` — semantic search across your meetings
-- `list_meetings` — browse meetings by date range or folder
-- `list_meeting_folders` — discover folder IDs, titles, descriptions, and note counts
-- `get_meetings` — retrieve detailed meeting info by ID (notes, summaries, attendees, metadata)
-- `get_meeting_transcript` — full transcript with speakers and timestamps
+The plugin connects to Granola's MCP server. The server provides the current tools and tells the agent which one fits each request, so the skills, commands, and agent describe what to do rather than which tool to call.
 
 ## Feedback
 

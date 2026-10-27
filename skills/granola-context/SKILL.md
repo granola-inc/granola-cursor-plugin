@@ -9,7 +9,7 @@ Use this skill when meeting context is relevant to the user's request — for ex
 
 A feature request, bug fix, design choice, person's name, or reference to the current chat is not by itself a reason to search meetings. If the needed meeting context is already in the conversation, use it without another lookup unless the user asks for verification or newer information, or relevant details are missing.
 
-Use `query_granola_meetings` with the meeting question or the specific context needed for the task. For requests about upcoming meetings or future calls, use `list_meetings` with the requested date range, or the next week or two if none is specified.
+Use Granola's tools to find the answer, following the Granola server's guidance on which tool fits the question. Ask Granola for the specific context the task needs rather than a broad summary. For upcoming meetings or future calls, look at the requested date range, or the next week or two if none is specified.
 
 Return a concise answer — the decision or information, which meeting it came from (title and date), and who was involved. If the answer came up across multiple meetings, note whether the thinking evolved or stayed consistent.
 

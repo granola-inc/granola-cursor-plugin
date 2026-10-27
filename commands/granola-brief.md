@@ -9,9 +9,9 @@ Someone needs to get oriented on a topic — a project, a client, a strategic qu
 
 This is useful for onboarding onto a project, preparing for a high-stakes conversation, getting back up to speed after time away, or just collecting scattered meeting discussions into one place.
 
-Ask what they want a brief on. Use `query_granola_meetings` for a broad search, then `list_meetings` and `get_meetings` to find all relevant discussions chronologically.
+Ask what they want a brief on. Use Granola's tools to find every relevant discussion and read them in chronological order.
 
-Also check for upcoming meetings related to the topic. Use `list_meetings` with a custom range extending a week or two into the future. If there are upcoming calls with relevant people or on the relevant topic, include them at the end of the brief — "you have a call with [person/team] on [date]" — so the reader knows what's coming next, not just what's happened.
+Also check the next week or two for upcoming meetings related to the topic. If there are upcoming calls with relevant people or on the relevant topic, include them at the end of the brief — "you have a call with [person/team] on [date]" — so the reader knows what's coming next, not just what's happened.
 
 Build the brief as a narrative: how the topic first came up, how the thinking evolved, where it stands now. Include who was involved and what they said. Surface any unresolved tensions or open questions.
 

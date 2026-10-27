@@ -9,7 +9,7 @@ Someone is ready to open a pull request and wants the description to reflect not
 
 Look at the current branch: the diff against the base branch, the commit history, and what files were touched. From that, identify the feature or topic being worked on.
 
-Use `query_granola_meetings` to find meetings where this work was discussed. Use `get_meetings` to pull detailed content — decisions, requirements, constraints that were agreed on. If the branch name or commits reference a specific project or feature, search for that directly.
+Use Granola's tools to find meetings where this work was discussed and read what was agreed — decisions, requirements, constraints. If the branch name or commits reference a specific project or feature, search for that directly.
 
 Write a PR description that includes:
 - A summary of what the PR does, grounded in what was discussed ("implements the caching approach agreed in the March 15 planning session")

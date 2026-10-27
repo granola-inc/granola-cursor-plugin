@@ -7,7 +7,7 @@ description: Check current work against meeting decisions before submitting. Use
 
 Before someone submits their work — a PR, a doc, a plan — they want to know whether it matches what was discussed in meetings. The fear is shipping something that contradicts what the team agreed on, or missing a requirement that was talked about but forgotten.
 
-Look at the current changes or work in progress. Identify the feature or topic from context. Search Granola for meetings where this was discussed using `query_granola_meetings` and `get_meetings`.
+Look at the current changes or work in progress. Identify the feature or topic from context. Use Granola's tools to find the meetings where this was discussed and read what was agreed.
 
 Then give them three things:
 - What's aligned — where the work matches what was agreed, and which meeting confirmed it

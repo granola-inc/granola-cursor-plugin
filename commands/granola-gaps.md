@@ -9,7 +9,7 @@ A developer wants to know what they've missed. Meetings produced decisions, requ
 
 Ask what project or feature to check, or infer it from the current repo. Establish a time range — default to the last two weeks, but ask if they want to go further back.
 
-Use `query_granola_meetings` to find meetings where requirements, action items, or implementation details were discussed for this project. Use `list_meetings` with the time range to catch meetings the semantic search might miss. Use `get_meetings` for detailed content.
+Use Granola's tools to find every meeting in the time range where requirements, action items, or implementation details were discussed for this project, and read their notes.
 
 From the meetings, collect everything that sounds like it should result in a code change: features to build, bugs to fix, refactors to do, endpoints to add, behaviour to change, technical decisions to implement. Include who raised it and when.
 
