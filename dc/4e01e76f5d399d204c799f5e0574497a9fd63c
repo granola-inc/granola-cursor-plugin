@@ -1,0 +1,19 @@
+.gitignore
+  s_8e1e57d982165e::t_7d1ee69e050d25 1
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "dc4e01e76f5d399d204c799f5e0574497a9fd63c",
+  "prompts": {},
+  "sessions": {
+    "s_8e1e57d982165e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f735f541-a7e9-4d52-96b1-9d21082d7ae2",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Damian <damian@granola.so>"
+    }
+  }
+}
