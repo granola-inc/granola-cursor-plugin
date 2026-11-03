@@ -1,0 +1,23 @@
+.cursor-plugin/plugin.json
+  s_8e1e57d982165e::t_dab092f707cf69 7
+README.md
+  s_8e1e57d982165e::t_ae111220b54124 55
+SECURITY.md
+  s_8e1e57d982165e::t_dc08d8535d803d 7,26
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "8c52745ddff3758c45742416ef6fcf68b8aa9431",
+  "prompts": {},
+  "sessions": {
+    "s_8e1e57d982165e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f735f541-a7e9-4d52-96b1-9d21082d7ae2",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Damian <damian@granola.so>"
+    }
+  }
+}
