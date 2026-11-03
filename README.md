@@ -52,4 +52,4 @@ The plugin connects to Granola's MCP server. These are the tools available to th
 
 ## Feedback
 
-We'd love to hear how you're using this. Reach out at hello@granola.ai or on [Twitter/X](https://x.com/granaborable).
+We'd love to hear how you're using this. Reach out at hey@granola.so or on [Twitter/X](https://x.com/granaborable).

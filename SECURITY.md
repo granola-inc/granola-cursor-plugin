@@ -4,7 +4,7 @@
 
 If you discover a security vulnerability in this plugin or the Granola MCP server it connects to, please report it responsibly.
 
-**Email**: security@granola.ai
+**Email**: security@granola.so
 
 Please include:
 
@@ -23,5 +23,5 @@ This policy covers:
 
 ## Out of Scope
 
-- The Granola desktop or web application (report these separately at security@granola.ai)
+- The Granola desktop or web application (report these separately at security@granola.so)
 - Third-party dependencies or services
