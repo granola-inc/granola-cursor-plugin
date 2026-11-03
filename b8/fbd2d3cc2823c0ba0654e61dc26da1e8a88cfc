@@ -1,0 +1,19 @@
+.github/dependabot.yml
+  s_8e1e57d982165e::t_f9010e800d9cae 6
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "b8fbd2d3cc2823c0ba0654e61dc26da1e8a88cfc",
+  "prompts": {},
+  "sessions": {
+    "s_8e1e57d982165e": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "f735f541-a7e9-4d52-96b1-9d21082d7ae2",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Damian <damian@granola.so>"
+    }
+  }
+}
